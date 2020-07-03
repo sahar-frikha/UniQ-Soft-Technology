@@ -661,6 +661,7 @@ section {
 }
 
 .about .icon-box .description {
+  height: 205px;
   margin-left: 95px;
   line-height: 24px;
   font-size: 14px;
@@ -835,7 +836,7 @@ section {
 }
 
 #solutions .box {
-  padding: 40px;
+  padding: 30px;
   margin-bottom: 40px;
   box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
   background: #fff;
@@ -1513,12 +1514,12 @@ section {
 }
 
 .faq .faq-list a {
-  display: block;
+  
   position: relative;
-  font-family: #eb5d1e;
+  font-family: #fc0404;
   font-size: 18px;
   font-weight: 600;
-  color: #eb5d1e;
+  color: #fc0404;
 }
 
 .faq .faq-list i {
@@ -1535,7 +1536,7 @@ section {
 }
 
 .faq .faq-list a.collapse {
-  color: #eb5d1e;
+  color: #fc0404;
 }
 
 .faq .faq-list a.collapsed {
@@ -1543,7 +1544,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #eb5d1e;
+  color: #fc0404;
 }
 
 .faq .faq-list a.collapsed i::before {
@@ -1578,7 +1579,7 @@ section {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #ff5821;
+  background: #fc0404;
 }
 
 .services1 .icon i {
@@ -1599,15 +1600,15 @@ section {
 
 .services1 .icon-box:hover .icon {
   background: #fff;
-  border: 2px solid #ff5821;
+  border: 2px solid #fc0404;
 }
 
 .services1 .icon-box:hover .icon i {
-  color: #ff5821;
+  color: #fc0404;
 }
 
 .services1 .icon-box:hover .title a {
-  color: #ff5821;
+  color: #fc0404;
 }
 
 .services1 .description {
@@ -1664,7 +1665,7 @@ section {
 }
 
 .values .card:hover .card-body {
-  background: #ff5821;
+  background: #fc0404;
 }
 
 .values .card:hover .read-more a, .values .card:hover .card-title, .values .card:hover .card-title a, .values .card:hover .card-text {
@@ -1708,7 +1709,7 @@ section {
 }
 
 .team1 .member .social a:hover {
-  color: #ff5821;
+  color: #fc0404;
 }
 
 .team1 .member .social i {
