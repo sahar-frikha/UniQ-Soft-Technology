@@ -1,41 +1,38 @@
-<?php
-  /**
-  * Requires the "PHP Email Form" library
-  * The "PHP Email Form" library is available only in the pro version of the template
-  * The library should be uploaded to: vendor/php-email-form/php-email-form.php
-  * For more info and help: https://bootstrapmade.com/php-email-form/
-  */
+<?php  
+if (isset($_POST['submit'])) {
 
-  // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+	# code...
+	$user_name=$_POST['name'];
+	$user_email=$_POST['email'];
+	//$user_subject=$_POST['subject'];
+	$user_message=$_POST['message'];
 
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
-  } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
-  }
 
-  $contact = new PHP_Email_Form;
-  $contact->ajax = true;
-  
-  $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
+	$email_from = 'sahar.frikha9@gmail.com';
+	$email_subject= "hello";
+	$email_body="Name: $user_name. \n 
+				User message : $user_message";
 
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
-  $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
-  );
-  */
+	$to_email="sahar.frikha1@gmail.com";
+	$headers="From: $email_from \r \n";
+	$headers .="Replay-To $user_email \r \n";
 
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
 
-  echo $contact->send();
+	$secretkey="6Ld177IZAAAAAN6yCpWZ7-GXFaoxCFhnAxbYwcNn";
+	$responsekey=$_POST['g-recaptcha-response'];
+	$UserIP=$_SERVER['REMOTE_ADDR'];
+	$url="https://www.google.com/recaptcha/api/siteverify?secret=$secretkey&resonse=$responsekey&remoteip=$UserIP";
+	$response=file_get_contents($url);
+	$response=json_decode($response);
+	if ($response-> success) {
+		# code...
+		mail($to_email, $email_subject, $email_body,$headers);
+		
+	}
+
+
+}
+
+
+
 ?>
