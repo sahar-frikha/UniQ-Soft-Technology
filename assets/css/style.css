@@ -5,8 +5,8 @@ body {
   background: #fff;
   color: #444;
   font-family: "Open Sans", sans-serif;
-  text-align: justify;
-  text-justify: inter-word;
+  /*text-align: justify;
+  text-justify: inter-word;*/
 }
 
 a {
@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro #intro-carousel::before {
   content: '';
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -1636,14 +1636,21 @@ section {
   font-weight: 400;
   color: #0773c0;
 }
+.about-lists .content-item p .read-more-content {
+  color: #aaaaaa;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
 
 .about-lists .content-item h4 {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 400;
   padding: 0;
   margin: 20px 0;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .about-lists .content-item h4 a{
@@ -1659,6 +1666,14 @@ section {
   padding: 0;
   text-align: justify;
   text-justify: inter-word;
+}
+.about-lists .btn3{
+  height: 30px;
+  width: 100px;
+  font-size: 13px;
+  color: #0773c0;
+  font-weight: bold;
+
 }
 
 @media (max-width: 768px) {

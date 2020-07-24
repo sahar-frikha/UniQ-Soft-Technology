@@ -35,6 +35,15 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    #more1 {display: none;}
+    #more2 {display: none;}
+    #more3 {display: none;}
+    #more4 {display: none;}
+    #more5 {display: none;}
+    #more6 {display: none;}
+
+  </style>
 </head>
 
 <body>
@@ -136,37 +145,52 @@
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">
             <span>01</span>
             <h4><a href="ManagementConsulting.html">Management Consulting</a> </h4>
-            <p>Professional services are provided by the implementation team, composed of technical and business professional consultants who have been involved in the design and the development of UniQ Financial Solution. </p>
+            <p>Professional services are provided by the implementation team, composed  <span class="read-more-content" id="dots1"></span><span class="read-more-content" id="more1"> of technical and business professional consultants who have been involved in the design and the development of UniQ Financial Solution. </span></p>
+            <br>
+            <button onclick="myFunction()" id="myBtn1" class="btn btn-light btn3">Read more</button>
+
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
             <span>02</span>
             <h4><a href="BusinessConsulting.html">Business Consulting</a> </h4>
-            <p>Our Business Consultants are highly skilled in both Core Banking and ERP Systems In Banking we help our Customer optimize their Core systems, we provide them with knowledge and expertise in various areas such as Retail, Corporate, Private Wealth Management, and Investment, Payment, including Islamic Banking. In ERP we help our customers implementing our UniQ Solutions, and their integration within their own Financial Information Systems. We cover the full implementation life cycle, from Project Management, Business, Analysis, Solution Design, Testing, training, go live, to onsite support.</p>
+            <p>
+            Our Business Consultants are highly skilled in both Core Banking and <span class="read-more-content" id="dots2"></span><span class="read-more-content" id="more2">ERP Systems In Banking we help our Customer optimize their Core systems,
+            we provide them with knowledge and expertise in various areas such as Retail, Corporate, Private Wealth Management, and Investment, Payment, including Islamic Banking. In ERP we help our customers implementing our UniQ Solutions, and their integration within their own Financial Information Systems. We cover the full implementation life cycle, from Project Management, Business, Analysis, Solution Design, Testing, training, go live, to onsite support.</span></p>
+            <br>
+            <button onclick="myFunction2()" id="myBtn2" class="btn btn-light btn3">Read more</button>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
             <span>03</span>
             <h4><a href="TechnicalConsulting.html">Technical Consulting</a> </h4>
-            <p>UniQ Soft Technology works with multiple partners in many countries. All partner consultants technical and functional are trained and certified with our products. Partners can be engaged in implementation projects. </p>
+            <p>UniQ Soft Technology works with multiple partners in many countries. <span class="read-more-content" id="dots3"></span><span class="read-more-content" id="more3">All partner consultants technical and functional are trained and certified with our products. Partners can be engaged in implementation projects. </span></p>
+            <br>
+            <button onclick="myFunction3()" id="myBtn3" class="btn btn-light btn3">Read more</button>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
             <span>04</span>
-            <h4><a href="KnowledgeTransferTraining.html">Knowledge Transfer and Training</a> </h4>
-            <p>Knowledge transfer is provided via Functional and Technical Training in the following forms: Standard training is preconfigured class course delivered for users and key users at every implementation before the testing phase. Bespoke Training is defined based on the customer requirements. It’s delivered for a single or group of persons at any time. Both training classes are provided either on site or in UniQ premises. </p>
+            <h4><a href="KnowledgeTransferTraining.html">Knowledge Transfer</a> </h4>
+            <p>Knowledge transfer is provided via Functional and Technical Training in <span class="read-more-content" id="dots4"></span><span class="read-more-content" id="more4">the following forms: Standard training is preconfigured class course delivered for users and key users at every implementation before the testing phase. Bespoke Training is defined based on the customer requirements. It’s delivered for a single or group of persons at any time. Both training classes are provided either on site or in UniQ premises. </span></p>
+            <br>
+            <button onclick="myFunction4()" id="myBtn4" class="btn btn-light btn3">Read more</button>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="400">
             <span>05</span>
             <h4><a href="https://www.uniqfst.com/ClientPortal/loginform.php">Project Management</a> </h4>
-            <p>Our Project Managers are distinguished by their long experiences and sharp skills in understanding the project scope and milestones. Hence they are well qualified in organizing the various tasks, planning the different steps, the identification & the allocation of the right resources to the right tasks. In addition, our Project Managers are committed to respect the project three pillars, which are, the scope,  schedule, and the Budget.</p>
+            <p>Our Project Managers are distinguished by their long experiences and sharp <span class="read-more-content" id="dots5"></span><span class="read-more-content" id="more5">skills in understanding the project scope and milestones. Hence they are well qualified in organizing the various tasks, planning the different steps, the identification & the allocation of the right resources to the right tasks. In addition, our Project Managers are committed to respect the project three pillars, which are, the scope,  schedule, and the Budget.</span></p>
+            <br>
+            <button onclick="myFunction5()" id="myBtn5" class="btn btn-light btn3">Read more</button>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="400">
             <span>06</span>
             <h4><a href="https://www.uniqfst.com/ClientPortal/loginform.php">Help Desk and Support</a> </h4>
-            <p> Our support engineer are available to provide online support for our UniQ solution. During office working time.  It’s also possible to engage our support engineers on site for specific tasks if required.</p>
+            <p> Our support engineer are available to provide online support for our <span class="read-more-content" id="dots6"></span><span class="read-more-content" id="more6">UniQ solution. During office working time.  It’s also possible to engage our support engineers on site for specific tasks if required.</span></p>
+            <br>
+            <button onclick="myFunction6()" id="myBtn6" class="btn btn-light btn3">Read more</button>
           </div>
 
         </div>
@@ -211,6 +235,104 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!-- -->
+  <script>
+    function myFunction() {
+      var dots1 = document.getElementById("dots1");
+      var moreText1 = document.getElementById("more1");
+      var btnText1 = document.getElementById("myBtn1");
+
+      if (dots1.style.display === "none") {
+        dots1.style.display = "inline";
+        btnText1.innerHTML = "Read more"; 
+        moreText1.style.display = "none";
+      } else {
+        dots1.style.display = "none";
+        btnText1.innerHTML = "Read less"; 
+        moreText1.style.display = "inline";
+      }  
+    }
+
+    function myFunction2() {
+        var dots2 = document.getElementById("dots2");
+      var moreText2 = document.getElementById("more2");
+      var btnText2 = document.getElementById("myBtn2");
+
+      if (dots2.style.display === "none") {
+        dots2.style.display = "inline";
+        btnText2.innerHTML = "Read more"; 
+        moreText2.style.display = "none";
+      } else {
+        dots2.style.display = "none";
+        btnText2.innerHTML = "Read less"; 
+        moreText2.style.display = "inline";
+      }
+    }
+
+    function myFunction3() {
+        var dots3 = document.getElementById("dots3");
+      var moreText3 = document.getElementById("more3");
+      var btnText3 = document.getElementById("myBtn3");
+
+      if (dots3.style.display === "none") {
+        dots3.style.display = "inline";
+        btnText3.innerHTML = "Read more"; 
+        moreText3.style.display = "none";
+      } else {
+        dots3.style.display = "none";
+        btnText3.innerHTML = "Read less"; 
+        moreText3.style.display = "inline";
+      }
+    }
+
+    function myFunction4() {
+        var dots4 = document.getElementById("dots4");
+      var moreText4 = document.getElementById("more4");
+      var btnText4 = document.getElementById("myBtn4");
+
+      if (dots4.style.display === "none") {
+        dots4.style.display = "inline";
+        btnText4.innerHTML = "Read more"; 
+        moreText4.style.display = "none";
+      } else {
+        dots4.style.display = "none";
+        btnText4.innerHTML = "Read less"; 
+        moreText4.style.display = "inline";
+      }
+    }
+
+    function myFunction5() {
+        var dots5 = document.getElementById("dots5");
+      var moreText5 = document.getElementById("more5");
+      var btnText5 = document.getElementById("myBtn5");
+
+      if (dots5.style.display === "none") {
+        dots5.style.display = "inline";
+        btnText5.innerHTML = "Read more"; 
+        moreText5.style.display = "none";
+      } else {
+        dots5.style.display = "none";
+        btnText5.innerHTML = "Read less"; 
+        moreText5.style.display = "inline";
+      }
+    }
+
+    function myFunction6() {
+        var dots6 = document.getElementById("dots6");
+      var moreText6 = document.getElementById("more6");
+      var btnText6 = document.getElementById("myBtn6");
+
+      if (dots6.style.display === "none") {
+        dots6.style.display = "inline";
+        btnText6.innerHTML = "Read more"; 
+        moreText6.style.display = "none";
+      } else {
+        dots6.style.display = "none";
+        btnText6.innerHTML = "Read less"; 
+        moreText6.style.display = "inline";
+      }
+    }
+  </script>
 
 </body>
 
