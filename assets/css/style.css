@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  color: #ff0000;
+  color: #db0f0f;
   transition: 0.5s;
 }
 
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #ff0000;
+  background: #db0f0f;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:focus {
-  background: #ff0000;
+  background: #db0f0f;
   color: #fff;
   outline: none;
 }
@@ -77,11 +77,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #ff0000;
+  color: #db0f0f;
 }
 
 #topbar .contact-info i {
-  color: #ff0000;
+  color: #db0f0f;
   padding: 4px;
 }
 
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #ff0000;
+  color: #db0f0f;
 }
 
 #topbar .social-links a:first-child {
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo li a span {
-  color: #ff0000;
+  color: #db0f0f;
 }
 
 #header #logo img {
@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content h2 span {
-  color: #ff0000;
+  color: #db0f0f;
   text-decoration: underline;
 }
 
@@ -236,13 +236,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content .btn-projects {
-  background: #ff0000;
-  border: 2px solid #ff0000;
+  background: #db0f0f;
+  border: 2px solid #db0f0f;
 }
 
 #intro .intro-content .btn-projects:hover {
   background: none;
-  color: #ff0000;
+  color: #db0f0f;
 }
 
 #intro #intro-carousel {
@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: #ff0000;
+  color: #db0f0f;
 }
 
 .nav-menu > li {
@@ -383,7 +383,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #ff0000;
+  color: #db0f0f;
 }
 
 .nav-menu ul ul {
@@ -470,11 +470,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #ff0000;
+  color: #db0f0f;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #ff0000;
+  color: #db0f0f;
 }
 
 #mobile-body-overly {
@@ -530,7 +530,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #ff0000;
+  background: #db0f0f;
   bottom: 0;
   left: 0;
 }
@@ -553,7 +553,7 @@ section {
   color: #444;
 }
 .breadcrumbs a:hover{
-  color: #fc0404;
+  color: #db0f0f;
 }
 .breadcrumbs h2 {
   font-size: 24px;
@@ -802,7 +802,7 @@ section {
 }
 
 #about .content h3 {
-  color: #0773c0;
+  color: #242c5c;
   font-weight: 700;
   font-size: 25px;
   font-family: "Raleway", sans-serif;
@@ -827,7 +827,7 @@ section {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #ff0000;
+  color: #db0f0f;
 }
 
 #about .content ul {
@@ -1020,7 +1020,7 @@ section {
 }
 
 #clients .owl-dot.active {
-  background-color: #ff0000;
+  background-color: #db0f0f;
 }
 
 /* solutions Section
@@ -1182,7 +1182,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #fc0404;
+  color: #db0f0f;
 }
 
 .team .member .social i {
@@ -1222,7 +1222,7 @@ section {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #ff0000;
+  color: #db0f0f;
 }
 
 #contact .contact-info address, #contact .contact-info p {
@@ -1243,7 +1243,7 @@ section {
 }
 
 #contact .contact-info a:hover {
-  color: #ff0000;
+  color: #db0f0f;
 }
 
 #contact .contact-address, #contact .contact-phone, #contact .contact-email {
@@ -1285,7 +1285,7 @@ section {
 #contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #fc0404;
+  background: #db0f0f;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1332,11 +1332,11 @@ section {
 }
 
 #contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
-  background-color: #ff0000;
+  background-color: #db0f0f;
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: #ff0000;
+  background: #db0f0f;
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
@@ -1347,9 +1347,9 @@ section {
 
 #contact .php-email-form button[type="submit"]:hover {
   background: none;
-  color: #ff0000;
-  border-color: #ff0000;
-  border: 2px solid #ff0000;
+  color: #db0f0f;
+  border-color: #db0f0f;
+  border: 2px solid #db0f0f;
   
 }
 
@@ -1421,16 +1421,16 @@ section {
 .faq .faq-list a {
   
   position: relative;
-  font-family: #fc0404;
+  font-family: #343a40;
   font-size: 18px;
   font-weight: 600;
-  color: #fc0404;
+  color: #0773c0;
 }
 
 .faq .faq-list p a {
   
   position: relative;
-  font-family: #fc0404;
+  font-family: #db0f0f;
   font-size: 16px;
   font-weight: 600;
   color: #343a40;
@@ -1438,10 +1438,10 @@ section {
 .faq .faq-list p a:hover {
   
   position: relative;
-  font-family: #fc0404;
+  font-family: #343a40;
   font-size: 18px;
   font-weight: 600;
-  color: #fc0404;
+  color: #0773c0;
 }
 
 
@@ -1459,7 +1459,7 @@ section {
 }
 
 .faq .faq-list a.collapse {
-  color: #fc0404;
+  color: #343a40;
 }
 
 .faq .faq-list a.collapsed {
@@ -1467,7 +1467,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #fc0404;
+  color: #343a40;
 }
 
 .faq .faq-list a.collapsed i::before {
@@ -1525,7 +1525,7 @@ section {
 }
 
 .values .card:hover .card-body {
-  background: #fc0404;
+  background: #db0f0f;
 }
 
 .values .card:hover .read-more a, .values .card:hover .card-title, .values .card:hover .card-title a, .values .card:hover .card-text {
@@ -1749,12 +1749,17 @@ section {
 #whyUs .whyUs-extra h4 {
   font-weight: 600;
   font-size: 24px;
+  color: #0773c0;
 }
 #whyUs span{
   font-weight: 600;
-  color: #ff0000;
+  color: #0773c0;
 }
 
+#whyUs h4{
+  font-weight: 600;
+  color: #0773c0;
+}
 
 #solWhy {
   padding: 20px 0;
@@ -1789,7 +1794,7 @@ section {
 #solWhy .sol-content ul li i {
   font-size: 20px;
   padding-right: 4px;
-  color: #0773c0;
+  color: #db0f0f;
 }
 
 #solWhy .sol-img {

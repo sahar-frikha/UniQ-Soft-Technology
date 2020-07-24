@@ -20,8 +20,8 @@ if (isset($_POST['submit'])) {
 
 	$secretkey="6Ld177IZAAAAAN6yCpWZ7-GXFaoxCFhnAxbYwcNn";
 	$responsekey=$_POST['g-recaptcha-response'];
-	$UserIP=$_SERVER['REMOTE_ADDR'];
-	$url="https://www.google.com/recaptcha/api/siteverify?secret=$secretkey&resonse=$responsekey&remoteip=$UserIP";
+	//$UserIP=$_SERVER['REMOTE_ADDR']; &remoteip=$UserIP
+	$url="https://www.google.com/recaptcha/api/siteverify?secret=$secretkey&resonse=$responsekey";
 	$response=file_get_contents($url);
 	$response=json_decode($response);
 	if ($response-> success) {
