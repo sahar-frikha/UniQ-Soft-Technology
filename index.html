@@ -594,9 +594,9 @@
         <!--width="100%" height="380" frameborder="0" style="border:0" allowfullscreen -->
       </div>
 
-      <div class="container">
+      <!--<div class="container">
         <div class="form">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <form enctype="multipart/form-data" id="test" name="test"  onsubmit="return validateCaptcher()" method="post" action="contact_me2.php" class="php-email-form">
             <div class="form-row">
               <div class="form-group col-md-6">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -608,7 +608,7 @@
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <input type="text" class="form-control" name="phone" id="subject" placeholder="Phone" data-rule="minlen:4" data-msg="Please enter at least 8 chars" />
               <div class="validate"></div>
             </div>
             <div class="form-group">
@@ -616,7 +616,7 @@
               <div class="validate"></div>
             </div>
 
-            <div class="g-recaptcha" data-sitekey="6Ld177IZAAAAAJVjoch49pQSt28stQ56PbRtKWcX"></div>
+            <div class="g-recaptcha" data-sitekey="6LeuSIgUAAAAAAngIRhdoSRp1gVX5kWhity5XOB3"></div>
             
             <div class="mb-3">
               <div class="loading">Loading</div>
@@ -626,10 +626,44 @@
 
             <div class="text-center"><button type="submit">Send Message</button></div>
           </form>
-        </div>
+        </div>-->
+        <!--======= GET IN TOUCH PART =========-->
+            <div class="col-md-6 col-sm-6 container">
+              
+              <div id="contact_form" class="form">
+                <form enctype="multipart/form-data" id="test" name="test"  onsubmit="return validateCaptcher()" method="post" action="contact_me2.php" >
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                          <input name="name" type="text" placeholder="Full Name"/>
+                      </div>
+                    </div>
+                
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                                <input name="phone" type="text" placeholder="Phone Number"/>
+                            </div>
+                          </div>
+                    <div class="col-sm-12">
+                      <div class="form-group">
+                          <input name="email" type="email" placeholder="Email"/>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                        <textarea name="message" placeholder="Your Message"></textarea>
+                      <span class="msg-error error"></span>
 
-      </div>
-    </section><!-- End Contact Section -->
+                         <div class="g-recaptcha" data-sitekey="6LeuSIgUAAAAAAngIRhdoSRp1gVX5kWhity5XOB3"></div>
+
+                      <input name="submit" type="submit" value="SUBMIT YOUR MESSAGE" />
+                    </div>
+                  </div>
+                </form>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+
+  </section>--><!-- End Contact Section -->
 
 
   </main><!-- End #main -->

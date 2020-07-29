@@ -1637,7 +1637,7 @@ section {
   color: #0773c0;
 }
 .about-lists .content-item p .read-more-content {
-  color: #aaaaaa;
+  color: #8A8888;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -1660,7 +1660,7 @@ section {
   color: #0773c0;
 }
 .about-lists .content-item p {
-  color: #aaaaaa;
+  color: #8A8888;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -1780,6 +1780,15 @@ section {
 #whyUs h4{
   font-weight: 600;
   color: #0773c0;
+}
+
+#whyUs h3{
+  color: #db0f0f;
+}
+
+#solWhy h6{
+  color: #0773c0;
+  font-style: bold;
 }
 
 #solWhy {
