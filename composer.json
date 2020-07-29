@@ -1,0 +1,12 @@
+{
+    "name": "pc/mailer",
+    "authors": [
+        {
+            "name": "Sahar FRIKHA",
+            "email": "sahar.frikha@etudiant-enit.utm.tn"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^5.4"
+    }
+}

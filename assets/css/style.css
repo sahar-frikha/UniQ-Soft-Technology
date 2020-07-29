@@ -1871,3 +1871,26 @@ section {
   background-color: #ebf1fa;
   transition: .5s;
 }
+
+
+/* Contacty Us Section Dorra
+--------------------------------*/
+
+.ms{
+  width: 100%;
+height: calc(1.5em + .75rem + 2px);
+}
+.mstt{
+  width: 100%;
+height: calc(1.5em + .75rem + 40px);
+}
+.btmstt{
+
+background: #0773c0;
+border: 2px solid #0773c0;
+ color: #FFFFFF;
+font-weight: bold;
+font-size: 15px;
+font-weight: bold;
+padding: 10px 32px;
+}

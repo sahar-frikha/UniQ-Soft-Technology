@@ -1,10 +1,12 @@
 <?php
 
- 
+
+
 require 'forms/PHPMailerAutoload.php';
 
 if (isset($_POST["submit"])) 
 {
+
 	$name = $_POST["name"];
 	$phone = $_POST["phone"];
 	$email = $_POST["email"];

@@ -1,7 +1,6 @@
 <?php  
-if (isset($_POST['submit'])) {
 
-	# code...
+
 	$user_name=$_POST['name'];
 	$user_email=$_POST['email'];
 	//$user_subject=$_POST['subject'];
@@ -15,7 +14,12 @@ if (isset($_POST['submit'])) {
 
 	$to_email="sahar.frikha1@gmail.com";
 	$headers="From: $email_from \r \n";
-	$headers .="Replay-To $user_email \r \n";
+	$headers .="Replay-To $user_email \r \n";*/
+
+	$name = $_POST["name"];
+	$phone = $_POST["phone"];
+	$email = $_POST["email"];
+	$body = $_POST["message"];
 
 
 	$secretkey="6Ld177IZAAAAAN6yCpWZ7-GXFaoxCFhnAxbYwcNn";
