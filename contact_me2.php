@@ -1,7 +1,7 @@
 <?php
 
  
-require 'smtp/PHPMailerAutoload.php';
+require 'forms/PHPMailerAutoload.php';
 
 if (isset($_POST["submit"])) 
 {
@@ -16,7 +16,7 @@ if (isset($_POST["submit"]))
 	$mail->CharSet = 'UTF-8';
 	$mail->From = $email;
 	$mail->FromName = $name;
-	$mail->addAddress('info@uniqfst.com');
+	$mail->addAddress('sahar.frikha1@gmail.com');
 	$mail->addCC('');
 	$mail->addReplyTo($email);
 	$mail->isHTML(true); 
