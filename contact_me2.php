@@ -32,26 +32,6 @@ if (isset($_POST["submit"]))
 	$mail->Body    .= '<p>Best regards,</p>';
 	//
 
-
-	//Create a new PHPMailer instance
-	$mailR = new PHPMailer;
-
-	$mailR->CharSet = 'UTF-8';
-	$mailR->From = 'solutions@uniqfst.com';
-	$mailR->FromName = 'UniQ Solutions';
-	$mailR->addAddress($email);
-	$mailR->addCC('');
-	$mailR->addReplyTo('solutions@uniqfst.com');
-	$mailR->isHTML(true); 
-	$mailR->Subject = 'Contact me';
-	$mailR->Body    = '';
-	$mailR->Body    .= '<p>Dear'.$name.',';
-	$mailR->Body    .= '<p>Kindly be informed that we have recieved your contact demande. <br> We will contact you back.</p>';
-	$mailR->Body    .= '<p>Best regards,</p>';
-	//
-
-
-	
 	if(!$mail->send()) {
 	    echo '<strong style="color: red;" >Message not sent! Try again another time</strong>';
 	    //echo 'Mailer Error: ' . $mail->ErrorInfo;
@@ -61,15 +41,7 @@ if (isset($_POST["submit"]))
 	    //echo 'Message has been sent';
 	}
 
-	if(!$mailR->send()) {
-	    echo '<strong style="color: red;" >Message not sent! Try again another time</strong>';
-	    //echo 'Mailer Error: ' . $mail->ErrorInfo;
-	} else {
-		header('Location: index.html');
-		exit();
-	    //echo 'Message has been sent';
-	}
-
 }
+
 
 ?>
